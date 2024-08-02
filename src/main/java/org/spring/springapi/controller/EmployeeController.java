@@ -12,4 +12,9 @@ public class EmployeeController {
         return "Welcome to the Employee API";
     }
 
+    @RequestMapping("/run")
+    public String run() {
+        return "Run to the Employee API";
+    }
+
 }
